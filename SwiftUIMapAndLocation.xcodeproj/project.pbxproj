@@ -15,6 +15,7 @@
 		C581611F25270195007FF32F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C581611D25270195007FF32F /* LaunchScreen.storyboard */; };
 		C581612A25270196007FF32F /* SwiftUIMapAndLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C581612925270196007FF32F /* SwiftUIMapAndLocationTests.swift */; };
 		C581613525270196007FF32F /* SwiftUIMapAndLocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C581613425270196007FF32F /* SwiftUIMapAndLocationUITests.swift */; };
+		C581614325270257007FF32F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C581614225270257007FF32F /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C581613025270196007FF32F /* SwiftUIMapAndLocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIMapAndLocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C581613425270196007FF32F /* SwiftUIMapAndLocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIMapAndLocationUITests.swift; sourceTree = "<group>"; };
 		C581613625270196007FF32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C581614225270257007FF32F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				C58161122527018F007FF32F /* AppDelegate.swift */,
 				C58161142527018F007FF32F /* SceneDelegate.swift */,
 				C58161162527018F007FF32F /* ContentView.swift */,
+				C581614225270257007FF32F /* MapView.swift */,
 				C581611825270195007FF32F /* Assets.xcassets */,
 				C581611D25270195007FF32F /* LaunchScreen.storyboard */,
 				C581612025270195007FF32F /* Info.plist */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C58161132527018F007FF32F /* AppDelegate.swift in Sources */,
+				C581614325270257007FF32F /* MapView.swift in Sources */,
 				C58161152527018F007FF32F /* SceneDelegate.swift in Sources */,
 				C58161172527018F007FF32F /* ContentView.swift in Sources */,
 			);
